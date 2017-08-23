@@ -3,3 +3,11 @@
     align-content: center;
     vertical-align: middle;
 }
+
+.download-button{
+    cursor: pointer;
+}
+
+.download-button:hover{
+    color: #28a745;
+}
