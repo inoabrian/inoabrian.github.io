@@ -4,10 +4,10 @@
     vertical-align: middle;
 }
 
-.download-button{
+.fa.download-button{
     cursor: pointer;
 }
 
-.download-button:hover{
+.fa.download-button:hover{
     color: #28a745;
 }
