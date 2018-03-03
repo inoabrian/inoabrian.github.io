@@ -11,3 +11,7 @@
 .fa.download-button:hover{
     color: #28a745;
 }
+
+.hidden {
+    display: none;
+}
