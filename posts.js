@@ -24,7 +24,7 @@ function renderPosts(postList) {
         return `
             <div class="blog-post">
                 <div class="blog-post-title">
-                    <a href="./posts/${post.postLink}${post.title.split(' ').join('%')}.html" target="_blank">
+                    <a href="./posts/${post.postLink}_${post.title.split(' ').join('')}.html" target="_blank">
                         ${post.title}
                     </a>
                 </div>
