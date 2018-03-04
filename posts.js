@@ -21,7 +21,7 @@ function renderPosts(postList) {
 
     component.innerHTML = postList.posts
     .map((post) => {
-        let postTemplate = `
+        return `
             <div class="blog-post">
                 <div class="blog-post-title">
                     ${post.title}
