@@ -27,8 +27,20 @@ main {
 }
 
 footer {
-    background-color: pink;
+    /* background-color: pink; */
     grid-column: 1/4;
+}
+
+.my-footer{
+    display: grid;
+    grid-column: 1/4;
+    grid-template-columns: 1fr 1fr;
+}
+
+.my-footer-content {
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
 }
 
 .my-nav {
@@ -53,4 +65,9 @@ footer {
 #name h3 {
     margin: 0px;
     line-height: 50px;
+}
+
+
+.fa-heart {
+    color: red;
 }
