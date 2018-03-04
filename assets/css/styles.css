@@ -1,17 +1,56 @@
-.main {
-    height: 100vh;
-    align-content: center;
-    vertical-align: middle;
-}
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
 
-.fa.download-button{
-    cursor: pointer;
-}
-
-.fa.download-button:hover{
-    color: #28a745;
+.wrapper {
+    display: grid;
+    grid-template-rows: 50px auto 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    height: calc(100vh - 0px);
 }
 
 .hidden {
     display: none;
+}
+
+header {
+    /* background-color: blue; */
+    grid-column: 1/4;
+}
+
+#social-icons {
+    font-size: 1.5em;
+}
+
+main {
+    background-color: green;
+    grid-column: 1/4;
+}
+
+footer {
+    background-color: pink;
+    grid-column: 1/4;
+}
+
+.my-nav {
+    display: grid;
+    grid-column: 1/4;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nav-section {
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+#name {
+    font-style: normal;
+    font-family: 'Cedarville Cursive', cursive;
+    vertical-align: middle;
+}
+
+#name h3 {
+    margin: 0px;
+    line-height: 50px;
 }
