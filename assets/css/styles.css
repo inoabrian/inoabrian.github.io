@@ -32,7 +32,7 @@ header {
 }
 
 main {
-    background-color: green;
+    /* background-color: green; */
     grid-column: 1/4;
 }
 
