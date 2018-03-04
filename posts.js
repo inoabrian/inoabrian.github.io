@@ -2,7 +2,7 @@
     function() {
         let postsJSON = {};
 
-        fetch('https://www.inoabrian.github.io/posts.json',{"mode": 'cors'})
+        fetch('posts.json')
             .then(function(res) {
                 return res.json();
             })
