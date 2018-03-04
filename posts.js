@@ -20,6 +20,7 @@ function renderPosts(postList) {
     let component = document.querySelector('main > section > .container > .body > .body-posts > .body-posts-content :last-child');
 
     component.innerHTML = postList.posts
+    .filter((post) => post.active)
     .map((post) => {
         return `
             <div class="blog-post">
