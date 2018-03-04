@@ -34,5 +34,6 @@ function renderPosts(postList) {
                 </div>
             </div>
         `;
-    });
+    })
+    .join('<br>');
 }
