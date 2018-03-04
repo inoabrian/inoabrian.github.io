@@ -19,7 +19,7 @@ function renderPosts(postList) {
 
     let component = document.querySelector('main > section > .container > .body > .body-posts > .body-posts-content :last-child');
 
-    component.innerHTML = postList
+    component.innerHTML = postList.posts
     .map((post) => {
         let postTemplate = `
             <div class="blog-post">
