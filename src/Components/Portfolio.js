@@ -32,11 +32,6 @@ class Portfolio extends Component {
             <h3>
               Portfolio Work - Coming Soon.
             </h3>
-            {/* <h1>Check Out Some of My Works.</h1>
-
-            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                {projects}
-            </div> */}
           </div>
       </div>
    </section>
