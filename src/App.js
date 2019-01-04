@@ -3,13 +3,7 @@ import ReactGA from 'react-ga';
 import $ from 'jquery';
 import './App.css';
 import Header from './Components/Header';
-import Footer from './Components/Footer';
 import About from './Components/About';
-import Resume from './Components/Resume';
-import Contact from './Components/Contact';
-import Testimonials from './Components/Testimonials';
-import Portfolio from './Components/Portfolio';
-
 class App extends Component {
 
   constructor(props){
@@ -34,7 +28,7 @@ class App extends Component {
       }.bind(this),
       error: function(xhr, status, err){
         console.log(err);
-        alert(err);
+        alert(err || `Error loading page data.`);
       }
     });
   }
@@ -48,7 +42,6 @@ class App extends Component {
       <div className="App">
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
-        {/* <Portfolio data={this.state.resumeData.portfolio}/> */}
       </div>
     );
   }
